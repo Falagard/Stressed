@@ -6,7 +6,7 @@ import haxe.ui.events.MouseEvent;
 @:build(haxe.ui.ComponentBuilder.build("Assets/main-view.xml"))
 class MainView extends VBox {
 
-    private var serverAddress:String = "http://localhost:8000/hello";
+    private var serverAddress:String = "http://127.0.0.1:8000/hello";
 
 
     public function new() {
